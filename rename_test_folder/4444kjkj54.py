@@ -12,5 +12,4 @@ def timer(n):
         time.sleep(2)
         webbrowser.open("https://www.youtube.com/watch?v=S7J7XX0exDY")
         i += 1
-
 timer(3)
