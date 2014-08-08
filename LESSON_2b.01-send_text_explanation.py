@@ -3,7 +3,7 @@ THIS IS NOT TO BE RUN !!!!
 from twilio.rest import TwilioRestClient
 # inside twillio is a folder rest
 # from rest we want class TwilioRestClient
-# this line can also be: 
+# this line can also be:
 #
 # from twilio import rest
 # now access via rest.TwilioRestClient
@@ -29,13 +29,13 @@ Inside twillio is a folder rest
 inside is a python file with a class TwilioRestClient
 we are calling a function __init__ in class TwilioRestClient
 we create an object (instance) of the class TwilioRestClient
-the object can do all the things defined in the TwilioRestClient class 
+the object can do all the things defined in the TwilioRestClient class
 
 Class is blueprint with basic information. It can be used to create a lot of instances like row houses in suburbs. They are all made on the same blueprint.
 
 
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #     
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 Here are the questions:
 1. What is a class?
 2. What is an instance of a class?
@@ -43,7 +43,7 @@ Here are the questions:
 
 1. Class is an instruction holder
 2. Instance of a class is a thing made with some or all of the instructions
-3. Since we talked about blueprint, I would stay in the same area. 
-=> Building materials store could be a Class.  
+3. Since we talked about blueprint, I would stay in the same area.
+=> Building materials store could be a Class.
 => The land we have for our house is initialized object
 => Everything we build with the elements from the store are functions we take from the class
