@@ -1,5 +1,6 @@
 import media
 import fresh_tomatoes
+import webbrowser # timer
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and toys ....",
@@ -42,4 +43,14 @@ gattaca = media.Movie("Gattaca",
 
 
 movies = [toy_story, avatar, star_wars_4, star_wars_5, star_wars_6, gattaca]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+print (media.Movie.VALID_RATINGS)
+print (media.Movie.__doc__)
+print (media.Movie.__name__)
+print (media.Movie.__module__)
+
+choice = raw_input ("Would you like to read more about Classes ?. Pres Y. Anything else for No\n")
+
+if choice == "Y" or choice == "y":
+    webbrowser.open("http://www2.lib.uchicago.edu/keith/courses/python/")
